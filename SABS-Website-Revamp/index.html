@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ste. Anne de Beaupré School, Inc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pictures/logo.ico" type="image/x-icon">
+
+    <style>
+        /* your existing CSS styles */
+
+        /* add styles for the menu bar */
+        nav ul li:nth-child(1) a,
+        nav ul li:nth-child(2) a {
+            border-radius: 10px;
+            padding: 10px 20px;
+        }
+
+        nav {
+            background-color: #3C6255;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            padding: 10px 20px;
+        }
+
+        nav li {
+            margin: 0 10px;
+
+        }
+
+        nav ul li:first-child a {
+            font-size: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .logo {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+        }
+
+        .title h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .vision {
+            float: right;
+            width: 50%;
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        .contact {
+            float: right;
+            width: 50%;
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, rgba(0, 22, 9, 0.815), rgba(0, 0, 0, 0.664)), url('pictures/sabs.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            margin: 0;
+            max-width: 100%;
+
+        }
+
+        .class-description1 {
+            display: flex;
+            margin-top: 1px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .class-description {
+            display: flex;
+            margin-top: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .small-font {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            word-wrap: break-word;
+        }
+
+        h2:first-of-type {
+            margin-bottom: 1px;
+        }
+
+        h2:last-of-type {
+            margin-top: 1px;
+        }
+
+        /* styles for the footer */
+        footer {
+            background-color: #3C6255;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        footer li {
+            margin: 0 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- add the nav tag for the menu bar -->
+    <nav>
+        <div class="title">
+            <img src="pictures/logo.png" alt="Logo" class="logo">
+            <h1><a href="#classes">Ste. Anne de Beaupré School, Inc.</a></h1>
+        </div>
+        <ul>
+            <li><a href="#contact-info">Contact</a></li>
+            <li><a href="/School Sources/Schedule.html">Schedule</a></li>
+            <li><a href="https://github.com/NeonFelixe/SABS-Website-Revamp.github.io" target="_blank">About us</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact" id="contact">
+        <!-- contact content goes here -->
+    </div>
+    <div class="classes" id="classes">
+        <!-- classes content goes here -->
+    </div>
+
+    <div class="Description">
+        <h2 style="color:white;text-align:center; font-size: 40px; margin: 8px">SABS Official Website Revamped!</h2>
+        <h2 style="color:white;text-align:left; font-size: 15px; margin: 15px; font-weight: normal;">St. Anne de Beaupré
+            School was founded in 1974 by Miss Aurora T. Apuada as St. Anne’s Special School to
+            cater to the needs of children with special needs. Due to its efficient operations and constant improvement,
+            the school gained recognition and was granted full recognition in 1980. In 1987,
+            Ste. Anne de Beaupré School was established to mainstream special children, and it now offers recognized
+            courses from preschool to high school. Its graduates have been admitted to prestigious universities and
+            become professionals in various fields.
+            The school is now on its 36th year and is known for its top-notch educational system and strict adherence to
+            values formation.</h2>
+        <a href="https://meet.google.com/xha-dtmr-pvr?authuser=0&hs=179" target="_blank" class="button button1">Apply
+            now</a><br><br>
+    </div>
+
+    <style>
+        body {
+            background-color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .button {
+            background-color: #61876E;
+            border: none;
+            color: white;
+            width: 50%;
+            max-width: 100px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .button2 {
+            background-color: #61876E;
+            border: none;
+            color: white;
+            width: 80%;
+            max-width: 200px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row
+        }
+
+        .container3 {
+            display: flex;
+            justify-content: center;
+            margin: 50px
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+            margin: 0px
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1px 1px 1px 1px
+        }
+
+        .button {
+            margin: 10px;
+        }
+
+        .VnM {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+
+        .Description {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            margin: 240px
+        }
+
+        .container6 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            margin: px
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h3 style="color:white;text-align:center">Annean Vission and Mission</h3>
+
+        <div class="VnM">
+            <a target="_blank" class="button2">Ste. Anne de Beaupré School envisions a world of
+                proactive Filipino leaders that make the world a better
+                place both in the eyes of God and man.</a><br><br>
+            <a target="_blank" class="button2">Ste. Anne de Beaupré School offers a well-balanced
+                educational program for the formation of individuals
+                with moral virtues, high-level intelligence and
+                functional skills.</a><br><br>
+        </div>
+
+        <div class="class-description">
+            <p class="small-font">Sainte Anne de Beaupre School is a private educational institution that caters
+                to the needs of both regular and special children.
+                Founded in 1974 by Miss Aurora T. Apuada, a Special Education (SPED) degree holder from the University
+                of the Philippines,
+                the school aims to provide a well-balanced educational program for the formation of individuals with
+                moral virtues,
+                high-level intelligence and functional skills.</p>
+        </div>
+
+        <div class="vision" id="schedule"></div>
+
+
+
+        <footer>
+            <div class="bottom-bar" id="contact-info">
+                <p>Contact us: Nf.cruz@sabs.edu.ph (Under Development)</p>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
